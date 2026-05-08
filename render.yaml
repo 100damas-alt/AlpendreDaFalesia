@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: alpendre-da-falesia
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
+    routes:
+      - path: /
+        singlePage: true
