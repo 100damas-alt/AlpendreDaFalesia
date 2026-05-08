@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Alpendre Da Falésia</title>
+    <meta name="description" content="Entre em contacto com a Alpendre Da Falésia. Estamos prontos para ajudá-lo a encontrar o seu refúgio no Algarve.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="Alpendre Da Falésia">
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Início</a>
+                <a href="constructions.html">Construções</a>
+                <a href="buy.html">Comprar</a>
+                <a href="sell.html">Vender</a>
+                <a href="about.html">Sobre</a>
+                <a href="contact.html" class="active">Contacto</a>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="mobile-nav">
+        <span class="mobile-close">&times;</span>
+        <a href="index.html">Início</a>
+        <a href="constructions.html">Construções</a>
+        <a href="buy.html">Comprar</a>
+        <a href="sell.html">Vender</a>
+        <a href="about.html">Sobre</a>
+        <a href="contact.html">Contacto</a>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>Estamos prontos para ajudá-lo a encontrar o seu refúgio no Algarve. Entre em contacto connosco.</p>
+        </div>
+    </section>
+
+    <section class="section section-white">
+        <div class="container">
+            <div class="contact-info reveal">
+                <div class="contact-item">
+                    <div class="icon"><i class="fas fa-phone"></i></div>
+                    <h4>Telefone</h4>
+                    <p>+351 912 345 678</p>
+                    <p style="font-size: 0.875rem; margin-top: 4px;">Seg-Sex: 9h às 18h</p>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <h4>Email</h4>
+                    <p>info@alpendredafalesia.pt</p>
+                    <p style="font-size: 0.875rem; margin-top: 4px;">Resposta em 24h</p>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h4>Localização</h4>
+                    <p>Algarve, Portugal</p>
+                    <p style="font-size: 0.875rem; margin-top: 4px;">Reuniões com marcação</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-sand">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Envie-nos uma mensagem</h2>
+                <p>Preencha o formulário abaixo e entraremos em contacto brevemente</p>
+            </div>
+            <div style="max-width: 700px; margin: 0 auto;">
+                <form class="reveal" action="#" method="POST">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+                        <div class="form-group">
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" required placeholder="O seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="email@exemplo.pt">
+                        </div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+351 912 345 678">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" name="subject">
+                                <option value="">Selecione uma opção</option>
+                                <option value="buy">Quero Comprar</option>
+                                <option value="sell">Quero Vender</option>
+                                <option value="project">Projeto de Construção</option>
+                                <option value="visit">Agendar Visita</option>
+                                <option value="other">Outro</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem *</label>
+                        <textarea id="message" name="message" required placeholder="Escreva aqui a sua mensagem..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-white">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>O que acontece depois</h2>
+                <p>O nosso processo de acompanhamento</p>
+            </div>
+            <div class="pillars-grid reveal">
+                <div class="pillar-card">
+                    <div class="icon"><i class="fas fa-inbox"></i></div>
+                    <h4>Receção</h4>
+                    <p>Confirmamos a receção da sua mensagem em até 24 horas.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="icon"><i class="fas fa-comments"></i></div>
+                    <h4>Consulta</h4>
+                    <p>Entendemos as suas necessidades e apresentamos opções relevantes.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="icon"><i class="fas fa-calendar-check"></i></div>
+                    <h4>Reunião</h4>
+                    <p>Marcamos uma reunião (presencial ou online) para discutir detalhes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="assets/images/logo.png" alt="Alpendre Da Falésia" style="height: 50px; margin-bottom: 16px;">
+                    <p>Construímos o seu refúgio, mediamos o seu futuro.</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Links Rápidos</h5>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="constructions.html">Construções</a></li>
+                        <li><a href="buy.html">Comprar</a></li>
+                        <li><a href="sell.html">Vender</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Empresa</h5>
+                    <ul>
+                        <li><a href="about.html">Sobre Nós</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Contacto</h5>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +351 912 345 678</li>
+                        <li><i class="fas fa-envelope"></i> info@alpendredafalesia.pt</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Algarve, Portugal</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2024</span> Alpendre Da Falésia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
