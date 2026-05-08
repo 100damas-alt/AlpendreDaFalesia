@@ -290,13 +290,31 @@ h4 { font-size: 1.25rem; font-family: var(--font-body); font-weight: 600; }
 }
 
 .hero-content {
-  max-width: 1280px;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
-  padding: var(--space-2xl) 80px;
+  padding: var(--space-2xl) 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-xl);
   align-items: center;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translateX(30px);
+  animation: fadeRight 0.8s ease 0.3s forwards;
+  background: var(--color-ivory);
+}
+
+.hero-image img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .hero-text h1 {
@@ -332,8 +350,8 @@ h4 { font-size: 1.25rem; font-family: var(--font-body); font-weight: 600; }
 
 .hero-image img {
   max-width: 100%;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-hover);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 @keyframes fadeUp {
